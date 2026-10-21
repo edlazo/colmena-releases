@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidad de Colmena</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f4faf4; --surface: #ffffff; --line: #dceae2; --text: #10241c; --text-2: #4a5f56; --brand: #00765b; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0b1813; --surface: #11221c; --line: #21392f; --text: #e4f2ec; --text-2: #9db8ad; --brand: #00dca9; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 Roboto, "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin: 24px 0 8px; font-size: 18px; }
+    p, li { color: var(--text-2); }
+    p { margin: 0 0 12px; }
+    a { color: var(--brand); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Política de privacidad de Colmena</h1>
+      <p>Última actualización: 21 de octubre de 2026.</p>
+
+      <h2>Qué es Colmena</h2>
+      <p>Colmena es una app de escritorio para Windows que lee la cuenta de MIeL de cada persona y le avisa de sus fechas de entrega. No tiene servidor propio: todo lo que usa queda guardado y encriptado en la PC de cada persona.</p>
+
+      <h2>Qué hace con tu cuenta de Google</h2>
+      <p>Si conectás Google Calendar desde la app, Colmena pide un único permiso, <code>calendar.app.created</code>. Con ese permiso:</p>
+      <ul>
+        <li>crea un calendario propio llamado "Colmena";</li>
+        <li>agrega, cambia y borra en ese calendario un evento por cada fecha de entrega que confirmaste, con sus avisos;</li>
+        <li>no puede ver ni cambiar tus otros calendarios ni sus eventos, ni ningún otro dato de tu cuenta de Google.</li>
+      </ul>
+
+      <h2>Qué datos se guardan y dónde</h2>
+      <p>El permiso que da Google se guarda solo en tu PC, encriptado con la protección de datos de Windows. Los eventos que crea Colmena quedan en tu cuenta de Google, como cualquier evento de tu calendario. Colmena no manda tus datos a ningún otro servidor ni los comparte con nadie, y no los usa para publicidad.</p>
+
+      <h2>Cómo dejar de usarlo</h2>
+      <p>Podés desconectar Google Calendar desde la app, en Cuenta. También podés quitarle el permiso a Colmena desde <a href="https://myaccount.google.com/permissions">los permisos de tu cuenta de Google</a> y borrar el calendario "Colmena" desde Google Calendar.</p>
+
+      <h2>Contacto</h2>
+      <p>Para cualquier consulta, usá el correo de asistencia que muestra la pantalla de permisos de Google al conectar Colmena.</p>
+
+      <p><a href="index.html">Volver a Colmena</a></p>
+    </div>
+  </main>
+</body>
+</html>
